@@ -1,0 +1,91 @@
+/* General styling for the body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #4a90e2, #007bff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* General container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Card styling */
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+}
+
+/* Heading */
+.card h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table styling */
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.booking-table th,
+.booking-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.booking-table th {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.booking-table tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+/* Status styling */
+.booking-table td:nth-child(4) {
+  font-weight: bold;
+}
+
+.booking-table td:nth-child(4):nth-child(odd) {
+  color: #28a745; /* Green for confirmed */
+}
+
+.booking-table td:nth-child(4):nth-child(even) {
+  color: #ffc107; /* Yellow for pending */
+}
+
+/* Back Link Styling */
+.Back {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Back:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,119 @@
+/* General body styling for the register page */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(to bottom right, #4a90e2, #007bff); /* Biru */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  /* Register container */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Register card styling */
+  .login-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Headings */
+  .login-card h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .login-card p {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Button styling */
+  .btn-login {
+    padding: 10px;
+    background-color: #4a90e2; /* Biru untuk tombol register */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-login:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer links */
+  .form-footer {
+    margin-top: 20px;
+  }
+  
+  .form-footer a {
+    text-decoration: none;
+    color: #4a90e2; /* Biru untuk link */
+    font-size: 14px;
+    margin: 5px 0;
+    display: block;
+  }
+  
+  .form-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media screen and (max-width: 480px) {
+    .login-card {
+      padding: 20px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .btn-login {
+      font-size: 14px;
+    }
+  
+    .form-footer a {
+      font-size: 12px;
+    }
+  }
+  
